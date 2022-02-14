@@ -23,8 +23,8 @@ def getCL2Objs(labels):
 data =np.load("data.npy")
 labels = np.load("labels.npy")
 hashClID2obj = getCL2Objs(labels)
-train_perc = .7
-train_valid = .1
+train_perc = .5
+train_valid = .2
 
 tot_train_x = []
 tot_train_y = []
